@@ -1,0 +1,87 @@
+/* Estilo para a navbar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2ecc71; /* Verde */
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff; /* Branco */
+    font-weight: bold;
+}
+
+nav li a:hover {
+    background-color: #27ae60; /* Verde escuro */
+}
+
+/* Estilo para as seções */
+section {
+    padding: 50px;
+    color: #fff; /* Branco */
+}
+
+section h1 {
+    margin-bottom: 20px;
+}
+
+/* Estilo para o carrossel de depoimentos */
+.carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 10px;
+    scroll-snap-align: start;
+}
+
+.carousel-item h2 {
+    margin-bottom: 10px;
+}
+
+/* Estilo para a galeria de fotos */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo para o tema verde */
+.green-bg {
+    background-color: #2ecc71; /* Verde */
+}
+/* Estilo para o cabeçalho */
+header {
+    background-color: #2ecc71; /* Verde */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+.slogan p {
+    color: #fff; /* Branco */
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Resto do código CSS permanece igual */
