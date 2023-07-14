@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Minha Página</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -44,8 +44,8 @@
         <h1>Depoimentos</h1>
         <div class="carousel">
             <div class="carousel-item">
-                <h2>Depoimento 1</h2>
-                <p>Texto do depoimento 1.</p>
+                <h2>Zeca Urubu</h2>
+                <p>GOSTEI DEMAIS DO ATENDIMENTO.</p>
             </div>
             <div class="carousel-item">
                 <h2>Depoimento 2</h2>
@@ -59,18 +59,30 @@
                 <h2>Depoimento 4</h2>
                 <p>Texto do depoimento 4.</p>
             </div>
+            <div class="carousel-item">
+                <h2>Depoimento 5</h2>
+                <p>Texto do depoimento 5.</p>
+            </div>
+            <div class="carousel-item">
+                <h2>Depoimento 6</h2>
+                <p>Texto do depoimento 6.</p>
+            </div>
+            <div class="carousel-item">
+                <h2>Depoimento 7</h2>
+                <p>Texto do depoimento 7.</p>
+            </div>
         </div>
     </section>
 
-    <section id="galeria-fotos" class="green-bg">
-        <h1>Galeria de Fotos</h1>
-        <div class="gallery">
-            <img src="foto1.jpg" alt="Foto 1">
-            <img src="foto2.jpg" alt="Foto 2">
-            <img src="foto3.jpg" alt="Foto 3">
-            <img src="foto4.jpg" alt="Foto 4">
+    <div class="galleryContainer">
+        <div class="child">
+            <h1>Gallery</h1>
+            <div class="grandson">
+                <a class="img" href="#" onclick="zoomImage(event)"><img src="" alt="Foto1"></a>
+                <a class="img" href="#" onclick="zoomImage(event)"><img src="" alt="Foto2"></a>
+              </div>
         </div>
-    </section>
+    </div>
 
     <script src="script.js"></script>
 </body>
