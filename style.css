@@ -157,6 +157,9 @@ header {
   flex: 25%;
   overflow: hidden;
   cursor: pointer;
+  width: 500px; /* Define o tamanho desejado para as imagens */
+  height: 500px;
+  object-fit: cover; 
 }
 
 .galleryContainer .img img{
@@ -210,4 +213,27 @@ header {
     flex: 100%;
 
   }  
+}
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-media {
+  margin-bottom: 10px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.address {
+  margin-top: 10px;
+}
+
+.address p {
+  margin: 0;
 }

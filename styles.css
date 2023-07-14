@@ -83,5 +83,47 @@ header {
     font-size: 18px;
     margin-top: 10px;
 }
+/* Estilo para o cabeçalho */
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #2ecc71; /* Verde */
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+.slogan p {
+    color: #fff; /* Branco */
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Estilo para o carrossel de depoimentos */
+.carousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 0 0 auto;
+    width: 300px;
+    margin-right: 10px;
+    scroll-snap-align: start;
+    background-color: #fff; /* Branco */
+    color: #333; /* Cor do texto */
+    padding: 10px;
+}
+
+.carousel-item h2 {
+    margin-bottom: 10px;
+}
 
 /* Resto do código CSS permanece igual */
+
+
