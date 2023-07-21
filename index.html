@@ -2,113 +2,208 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Clínica PetCure</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Clínica PetCure</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="./images/logo.png" />
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="/images/logo.png" alt="Logo do Petshop">
-            </div>
-            <ul>
-                <li><a href="#inicio" class="green-link">Início</a></li>
-                <li><a href="#sobre-nos">Sobre Nós</a></li>
-                <li><a href="#servicos">Serviços Oferecidos</a></li>
-                <li><a href="#depoimentos">Depoimentos</a></li>
-                <li><a href="#galeria-fotos">Galeria de Fotos</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="inicio" class="green-bg">
-        <h1>Bem-vindo à Página Inicial</h1>
-        <p>Texto de introdução da página inicial.</p>
-    </section>
+  <header>
+    <nav class="side-nav">
+      <div class="logo">
+        <img src="./images/logo.png" alt="Logo do Petshop">
+      </div>
+      <ul> 
+        <li><a href="#inicio" class="inicio">Início</a></li>
+        <li><a href="#sobre-nos">Sobre Nós</a></li>
+        <li><a href="#servicos">Serviços Oferecidos</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#galeria-fotos">Galeria de Fotos</a></li>
+      </ul>
 
-    <section id="sobre-nos" class="green-bg">
-        <div class="container">
-            <h1>Sobre Nós</h1>
-            <img src="./images/img_sobre.png" alt="Imagens relacionadas a veterinárias">
-            <p><b>Bem-vindo à Pet Cure, sua clínica veterinária de confiança! </b><br> Nossa equipe é formada por veterinários altamente qualificados, especializados em diversas áreas da medicina veterinária, com anos de experiência no cuidado de animais. Nosso compromisso é oferecer tratamentos de qualidade e um ambiente acolhedor para você e seu pet. Na Pet Cure, nossa missão é proporcionar cuidados excepcionais aos animais, com atenção personalizada e instalações modernas. Nossa visão é promover a saúde e o bem-estar animal, fornecendo tratamentos de qualidade e educando os tutores sobre a importância da prevenção. Confie em nossa equipe dedicada para cuidar do seu animal de estimação como se fosse nosso próprio. Na Pet Cure, você encontrará profissionais apaixonados, especializados e comprometidos em oferecer o melhor atendimento veterinário. <br><b> Agende uma consulta conosco e deixe seu pet em boas mãos!</b></p>
-            <a class="button" href="https://api.whatsapp.com" target="_blank">Agendar consulta</a>
+      <a class="button contato" href="https://api.whatsapp.com" target="_blank">
+        <img src="./images/whatsapp.svg" alt="WhatsApp" class="whats">Entre em contato!
+      </a>
+    </nav>
+  </header>
+
+  <figure id="inicio">
+    <img src="./images/doguinho.jpg" alt="Doguinho deitado" />
+    <figcaption>
+      <h1>Cuide do seu pet com amor e dedicação</h1>
+    </figcaption>
+  </figure>
+
+  <section id="sobre-nos" class="green-bg">
+    <div class="container">
+      <h1>Sobre Nós</h1>
+      <img src="./images/img_sobre.png" alt="Imagens relacionadas a veterinárias">
+      <p><b>Bem-vindo à Pet Cure, sua clínica veterinária de confiança! </b><br> Nossa equipe é formada por
+        veterinários altamente qualificados, especializados em diversas áreas da medicina veterinária, com anos de
+        experiência no cuidado de animais. Nosso compromisso é oferecer tratamentos de qualidade e um ambiente
+        acolhedor para você e seu pet. Na Pet Cure, nossa missão é proporcionar cuidados excepcionais aos animais,
+        com atenção personalizada e instalações modernas. Nossa visão é promover a saúde e o bem-estar animal,
+        fornecendo tratamentos de qualidade e educando os tutores sobre a importância da prevenção. Confie em nossa equipe
+        dedicada para cuidar do seu animal de estimação como se fosse nosso próprio. Na Pet Cure, você encontrará
+        profissionais apaixonados, especializados e comprometidos em oferecer o melhor atendimento veterinário. <br><b> Agende
+          uma consulta conosco e deixe seu pet em boas mãos!</b></p>
+      <a class="button" href="https://api.whatsapp.com" target="_blank">Agendar consulta</a>
+    </div>
+  </section>
+
+  <section id="servicos">
+    <div class="container">
+      <h1>Serviços Oferecidos</h1>
+      <div class="flexbox-container">
+        <div class="flexbox-item">
+          <h2>Consultas Veterinárias</h2>
+          <p>Oferecemos consultas especializadas com profissionais dedicados, visando o diagnóstico preciso e o melhor tratamento para seus animais de estimação.</p>
+          <img src="images/magnifying-glass-solid.svg" alt="imagem 1">
         </div>
-    </section>
-
-    <section id="servicos">
-        <div class="container">
-            <h1>Serviços Oferecidos</h1>
-            <p>Descrição dos serviços oferecidos.</p>
+        <div class="flexbox-item">
+          <h2>Vacinação</h2>
+          <p>Proteja seu pet contra doenças com nosso serviço de vacinação completo, seguindo rigorosamente o calendário recomendado para garantir sua saúde e bem-estar.</p>
+          <img src="images/syringe-solid(1).svg" alt="imagem 1">
         </div>
-    </section>
-
-    <section id="depoimentos">
-        <h1>Depoimentos</h1>
-        <div class="carousel">
-            <div class="carousel-item">
-                <h2>Zeca Urubu</h2>
-                <p>GOSTEI DEMAIS DO ATENDIMENTO.</p>
-            </div>
-            <div class="carousel-item">
-                <h2>Mateus bobão</h2>
-                <p>GOSTEI MUITO DO ATENDIMETNO DESSA GALERA SINISTRA</p>
-            </div>
-            <div class="carousel-item">
-                <h2>Depoimento 3</h2>
-                <p>Texto do depoimento 3.</p>
-            </div>
-            <div class="carousel-item">
-                <h2>Depoimento 4</h2>
-                <p>Texto do depoimento 4.</p>
-            </div>
-            <div class="carousel-item">
-                <h2>Depoimento 5</h2>
-                <p>Texto do depoimento 5.</p>
-            </div>
-            <div class="carousel-item">
-                <h2>Depoimento 6</h2>
-                <p>Texto do depoimento 6.</p>
-            </div>
-            <div class="carousel-item">
-                <h2>Depoimento 7</h2>
-                <p>Texto do depoimento 7.</p>
-            </div>
+        <div class="flexbox-item">
+          <h2>Exames Clínicos</h2>
+          <p>Realizamos exames clínicos avançados para identificar problemas de saúde de forma precoce, possibilitando um tratamento eficaz e proporcionando uma vida mais saudável para os animais.</p>
+          <img src="images/paste-solid.svg" alt="imagem 1">
         </div>
-    </section>
+        <div class="flexbox-item">
+          <h2>Cirurgias</h2>
+          <p>Conte com nossa equipe cirúrgica altamente qualificada e equipamentos modernos para procedimentos seguros e eficientes, assegurando o cuidado e recuperação adequados.</p>
+          <img src="images/heart-solid.svg" alt="imagem 1">
+        </div>
+        <div class="flexbox-item">
+          <h2>Serviços de emergência</h2>
+          <p>Estamos preparados para atender emergências veterinárias a qualquer hora do dia ou da noite, proporcionando o suporte necessário quando seu animal mais precisa.</p>
+          <img src="images/house-chimney-medical-solid.svg" alt="imagem 1">
+        </div>
+        <div class="flexbox-item">
+          <h2>Tratamentos preventivos</h2>
+          <p>Priorizamos a prevenção como base dos cuidados, oferecendo tratamentos preventivos personalizados para manter a saúde e evitar problemas futuros em seus animais de estimação.</p>
+          <img src="images/calendar-days-solid.svg" alt="imagem 1">
+        </div>
+      
+      </div>
+    </div>
+  </section>
 
-    <div class="galleryContainer" id="galeria-fotos">
-        <div class="child">
-            <h1>Gallery</h1>
-            <div class="grandson">
-                <a class="img" href="#" onclick="zoomImage(event)"><img src="./images/foto1.jpg  " alt="Foto2"></a>
-                <a class="img" href="#" onclick="zoomImage(event)"><img src="./images/foto2.jpg  " alt="Foto2"></a>
-                <a class="img" href="#" onclick="zoomImage(event)"><img src="./images/foto5.jpg  " alt="Foto2"></a>
-               
-            </div>
-            <div class="grandson">
-
-                <a class="img" href="#" onclick="zoomImage(event)"><img src="./images/foto1.jpg" alt="Foto2"></a>
-                <a class="img" href="#" onclick="zoomImage(event)"><img src="./images/foto1.jpg" alt="Foto2"></a>
-                <a class="img" href="#" onclick="zoomImage(event)"><img src="./images/foto1.jpg" alt="Foto2"></a>
-              
-
-              </div>
+  <section id="depoimentos">
+    <h1 class="depoimentoh1">Depoimentos</h1>
+    <div class="carousel">
+        <div class="carousel-item">
+          <h2>João Silva</h2>
+          <p>Atendimento excelente! Minha cadela foi tratada com muito carinho e profissionalismo. Recomendo a todos!</p>
+            <img src="./images/foto1.jpg" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2>Pedro Santos</h2>
+          <p>Atendimento ágil e eficiente. Meu cachorro ficou muito bem após a consulta. Muito obrigado!</p>
+      
+            <img src="./images/foto2.jpg" alt="">
+          </div>
+        <div class="carousel-item">
+          <h2>Maria Souza</h2>
+          <p>Minha gatinha recebeu os cuidados necessários e se recuperou rapidamente. Equipe incrível!</p>
+            <img src="./images/foto3.jpeg" alt="">
+            
+        </div>
+        <div class="carousel-item">
+          <h2>Pedro Santos</h2>
+          <p>Atendimento ágil e eficiente. Meu cachorro ficou muito bem após a consulta. Muito obrigado!</p>
+            <img src="./images/foto4.jpeg" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2>Gabriel Rodrigues</h2>
+          <p>Excelente clínica veterinária! Fui muito bem recebido e meu cãozinho teve um tratamento incrível.</p>
+            <img src="./images/foto5.jpeg" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2>Lauro Oliveira</h2>
+          <p>Profissionais muito atenciosos e dedicados. Minha calopsita está muito melhor agora. Muito obrigada!</p>
+        
+            <img src="./images/foto6.jpeg" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2>Rafaela Mendes</h2>
+          <p>Minha tartaruga estava doente, mas graças ao atendimento da clínica, ela está se recuperando bem. Muito grata!</p>
+        
+            <img src="./images/foto7.jpeg" alt="">
+        </div>
+        <div class="carousel-item">
+          <h2>Rafaela Mendes</h2>
+          <p>Minha tartaruga estava doente, mas graças ao atendimento da clínica, ela está se recuperando bem. Muito grata!</p>
+        
+            <img src="./images/foto8.jpeg" alt="">
         </div>
     </div>
-    <footer>
+
+</section>
+
+  <section id="galeria-fotos">
+    <div class="galleryContainer">
+      <h1>Galeria de Fotos</h1>
+      <div class="grandson">
+        <div class="img">
+          <img src="./images/galeria1.jpeg" alt="Imagem 1 da galeria">
+        </div>
+        <div class="img">
+          <img src="./images/galeria2.jpeg" alt="Imagem 2 da galeria">
+        </div>
+        <div class="img">
+          <img src="./images/galeria3.jpeg" alt="Imagem 3 da galeria">
+        </div>
+        <div class="img">
+          <img src="./images/galeria4.jpeg" alt="Imagem 4 da galeria">
+        </div>
+        <div class="img">
+          <img src="./images/galeria5.jpeg" alt="Imagem 5 da galeria">
+        </div>
+        <div class="img">
+          <img src="./images/galeria6.jpeg"  alt="Imagem 6 da galeria">
+        </div>
+        <div class="img">
+            <img src="./images/galeria7.jpeg"  alt="Imagem 6 da galeria">
+          </div>
+          <div class="img">
+            <img src="./images/galeria8.jpeg" alt="Imagem 6 da galeria">
+          </div>
+          <div class="img">
+            <img src="./images/galeria9.jpeg" alt="Imagem 6 da galeria">
+          </div>
+      </div>
+    </div>
+  </section>
+  <section id="contato">
+    <div class="container-sobrenos">
+        <h1 class="contact-text">Fale Conosco</h1>
+        <h2 class="contact-p">Estamos aguardando seu contato!</h2>
+        <h2 class="contact-p"> R. Trinta e Seis, 115 - Loanda, João Monlevade - MG, 35931-008   </h2>
+        
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3753.212090223881!2d-43.16856392388748!3d-19.83097698153536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa5075b23912291%3A0x40c210d30d6d18d7!2sR.%20Trinta%20e%20Seis%2C%20115%20-%20Loanda%2C%20Jo%C3%A3o%20Monlevade%20-%20MG%2C%2035931-022!5e0!3m2!1spt-BR!2sbr!4v1689628098143!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+    </div>
+</section>
+
+  <footer>
+    <div class="footer-content">
         <div class="social-media">
-          <a href="https://api.whatsapp.com"><img src="/images/whatsapp.png" alt="WhatsApp"></a>
-          <a href="https://www.facebook.com"><img src="./images/facebook.png" alt="Facebook"></a>
-          <a href="https://www.instagram.com"><img src="./images/instagram.png" alt="Instagram"></a>
-          <a href="https://www.tiktok.com"><img src="./images/tiktok.png" alt="TikTok"></a>
-        </div>
-        <div class="address">
-            <p>Rua: Nome da Rua, Bairro: Nome do Bairro, CEP: 12345-678</p>
-        </div>
-    </footer>
-      
-  
+            <a href="https://api.whatsapp.com"><img src="./images/whatsapp.svg" alt="WhatsApp"></a>
+            <a href="https://www.facebook.com"><img src="./images/facebook.svg" alt="Facebook"></a>
+            <a href="https://www.instagram.com"><img src="./images/instagram.svg" alt="Instagram"></a>
+            <a href="https://www.tiktok.com"><img src="./images/tiktok.svg" alt="TikTok"></a>
+       
+        </div>  
+      <p>&copy; 2023 Clínica PetCure. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
 </body>
+
 </html>
