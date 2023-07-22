@@ -201,6 +201,10 @@ section h1 {
 }
 
 /* Serviços */
+#servicos .container {
+  width: 90%;
+}
+
 #servicos img{
   max-width: 200px;
   height: auto;
