@@ -7,10 +7,6 @@
   scrollbar-color: #2ecc71 white;
 }
 
-*::-webkit-scrollbar-track {
-  background: orange;
-}
-
 body{
   font-family: Verdana, Tahoma, sans-serif;
 }
@@ -630,6 +626,13 @@ footer {
   scrollbar-color: #2ecc71 white;
 }
 
-*::-webkit-scrollbar-track {
-  background: orange;
+
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color:#2ecc71;
+  border-radius: 20px;
+  border: 3px solid white;
 }
