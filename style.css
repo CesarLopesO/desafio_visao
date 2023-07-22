@@ -507,6 +507,21 @@ footer {
   transform: scale(1.05);
 }
 
+@media screen and (max-width: 1000px) {
+  nav .button{
+    width: 170px;
+    padding: 10px 20px;
+  }
+
+  nav li {
+    margin-left: 0px; 
+  }
+
+  #servicos .container {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   nav {
     flex-direction: column;
