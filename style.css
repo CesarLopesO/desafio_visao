@@ -3,6 +3,12 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #2ecc71 white;
+}
+
+*::-webkit-scrollbar-track {
+  background: orange;
 }
 
 body{
@@ -334,10 +340,6 @@ section h1 {
   margin-right: 20px;
 }
 
-.galleryContainer {
-  width: 100%;
-}
-
 .child {
   width: 100%;
   max-width: 1600px;
@@ -346,6 +348,10 @@ section h1 {
 }
 
 /* Galeria */
+.galleryContainer {
+  width: 100%;
+}
+
 .galleryContainer h1 {
   letter-spacing: 4px;
   margin-bottom: 35px;
@@ -365,7 +371,7 @@ section h1 {
   overflow: hidden;
   cursor: pointer;
   width: 300px;
-  height: 500px;
+  height: 250px;
   object-fit: cover;
   margin: 10px;
   padding: 10px;
