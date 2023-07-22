@@ -615,3 +615,11 @@ footer {
     margin: 5px;
   }
 }
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2ecc71 white;
+}
+
+*::-webkit-scrollbar-track {
+  background: orange;
+}
