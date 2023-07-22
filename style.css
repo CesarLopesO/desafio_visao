@@ -1,4 +1,3 @@
-
 *{
   box-sizing: border-box;
   padding: 0;
@@ -8,7 +7,6 @@
 
 body{
   font-family: Verdana, Tahoma, sans-serif;
-
 }
 
 a{
@@ -53,6 +51,17 @@ img{
   transition: 0.2s ease-in;
 }
 
+section {
+  padding: 40px;
+  color: #fff;
+}
+
+.container {
+  width: 70%;
+  text-align: center; 
+  margin: 0 auto;
+}
+
 /* Navbar */
 header {
   background-color: transparent;
@@ -63,18 +72,12 @@ nav {
   align-items: center;
   justify-content: space-around;
   padding: 0 10px;
-  border-style:initial;
-  transition: background-color 0.3s ease-in-out, padding 0.3s ease-in-out;
-  
-}
-
-.logo {
-  margin-right: 10px;
 }
 
 .logo img {
   max-width: 150px;
   height: auto;
+  margin-right: 10px;
 }
 
 nav ul {
@@ -88,7 +91,6 @@ nav ul {
 
 nav li {
   margin-left: 10px; 
-  
 }
 
 nav li:first-child {
@@ -105,12 +107,15 @@ nav li a {
   font-size: 16px;
   transition: color 0.3s;
 }
-.inicio{
+
+.inicio {
   color:#2ecc71;
 }
-.inicio a:hover{
+
+.inicio a:hover {
   color:black;
 }
+
 nav li:first-child a.green-link {
   color: #2ecc71;
 }
@@ -118,13 +123,6 @@ nav li:first-child a.green-link {
 nav li a:hover {
   background-color: #0e9446;
   color: #fff; 
-  transition: 0.3s ease-in;
-}
-
-nav li a:hover {
-  background-color: #0e9446;
-  color: #fff; 
-  transition: 0.3s ease-in;
 }
 
 nav .button{
@@ -144,23 +142,16 @@ nav .button:hover {
 nav .whats {
   width: 30px;
   margin-right: 5px;
-  margin-left: 0px;
 }
 
-section {
-  padding: 40px;
-  color: #fff;
-}
-
+/* Início */
 section h1 {
   margin-bottom: 20px;
 }
 
-
 #inicio {
   display: inline-block;
   position: relative;
-  border: initial;
   border: 20px;
   background-color:#2ecc71;
 }
@@ -175,61 +166,54 @@ section h1 {
   text-shadow: 5px 5px 5px black;
 }
 
+/* Sobre nós */
 #sobre-nos, #servicos {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.container {
-  width: 70%;
-  text-align: center; 
-  margin: 0 auto;
-}
-
-.container-sobrenos {
-  background-color: #d6d5d5;
-  padding-bottom: 20px;
- 
-}
-
 #sobre-nos h1 {
   font-size: 2rem;
   color: #fff;
   text-shadow: 5px 5px 5px black;
-  padding-top: 5px;
 }
 
 #sobre-nos img {
   width: 60%;
-  margin: 20px 0;
-
+  margin: 0 0 30px;
 }
 
 #sobre-nos p {
   margin-bottom: 40px;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  line-height: 1.8;
+}
+
+#sobre-nos .button {
+  padding: 20px 50px;
 }
 
 .container h1{
-  padding: 50px;
+  padding: 20px;
   font-size: 2rem;
   color: #17a050;
 }
+
+/* Serviços */
 #servicos img{
-    max-width: 200px;
-    height: auto;
-    border: none;
-    object-fit: cover;
-    
+  max-width: 200px;
+  height: auto;
+  border: none;
+  object-fit: cover;
+  padding: 10px;
 }
+
 #servicos .flexbox-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 30px;
-  
-
 }
 
 #servicos .flexbox-item {
@@ -243,26 +227,21 @@ section h1 {
   margin-bottom: 20px;
   transition: transform 0.3s ease-in-out;
   border-style:ridge;
-
 }
-
 
 #servicos .flexbox-item h2 {
   font-size: 20px;
   margin-bottom: 10px;
   text-shadow:0 0 5px rgba(0, 0, 0, 0.3);
-
 }
 
 #servicos .flexbox-item p {
   font-size: 16px;
   margin-bottom: 20px;
-
 }
 
 #servicos .flexbox-item:hover{
   transform: scale(1.05);
-
 }
 
 #servicos .flexbox-item img {
@@ -273,8 +252,6 @@ section h1 {
   background-color: transparent;
   border-color: #000;
   border-style:dashed;
-
- 
 }
 
 #servicos img{
@@ -282,6 +259,15 @@ section h1 {
   height: 300px;
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Depoimentos */
+.depoimentoh1{
+  letter-spacing: 4px;
+  margin-bottom: 45 px;
+  text-align: center;
+  font-size: 2.2rem;
+  color: #17a050;
 }
 
 .carousel {
@@ -292,14 +278,11 @@ section h1 {
   padding: 20px 0;
 }
 .carousel img{
-
   width: 100%;
   height: 400px; 
   object-fit: cover; 
   border-radius: 10px;
   border-style:inset;
-
-
 }
 
 .carousel-item {
@@ -325,7 +308,6 @@ section h1 {
   margin-right: 20px;
 }
 
-
 .carousel-item h2 {
   margin-bottom: 10px;
   font-size: 18px;
@@ -350,7 +332,6 @@ section h1 {
 
 .galleryContainer {
   width: 100%;
-  padding: 50px 0;
 }
 
 .child {
@@ -360,13 +341,11 @@ section h1 {
   padding: 20px;
 }
 
+/* Galeria */
 .galleryContainer h1 {
- 
-
   letter-spacing: 4px;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
   text-align: center;
-  padding: 50px;
   font-size: 2rem;
   color: #17a050;
 }
@@ -409,91 +388,10 @@ section h1 {
   color: #fff;
 }
 
-@media screen and (max-width: 768px) {
-
-  nav {
-    flex-direction: column;
-    align-items: center;
-    background-color: #2ecc71;
-    padding: 10px 0;
-  }
-
-  nav ul {
-    flex-direction: column;
-  }
-
-  nav li {
-    margin: 10px 0;
-  }
-
-  nav li a {
-    color: #fff;
-    font-size: 16px;
-  }
-
-  nav .button {
-    margin: 20px 0;
-  }
-
-  #sobre-nos img {
-    width: 100%;
-  }
-
-  .container {
-    width: 90%;
-  }
-
-  
-  #servicos .flexbox-item {
-    flex-basis: 100%;
-  }
-
-  #servicos img {
-    width: 100%;
-  }
-
-
-  .carousel {
-    overflow-x: auto;
-  }
-
-  .carousel-item {
-    flex-basis: 70%;
-    
-  }
-
-  
-  .galleryContainer .img {
-    flex: 50%;
-  }
-
-
-  #contato h1,
-  #contato p {
-    font-size: 16px;
-  }
-
-
-  .map-text {
-    font-size: 16px;
-  }
-
-  .map iframe {
-    width: 100%;
-    height: 300px;
-  }
-
-
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .social-media img {
-    width: 20px;
-    height: 20px;
-    margin: 5px;
-  }
+/* Contato */
+.container-contato {
+  background-color:#F5F5F5;
+  padding-bottom: 20px;
 }
 
 #contato {
@@ -505,8 +403,7 @@ section h1 {
 
 #contato h1 {
   margin-bottom: 20px;
-  margin-top: 10px;
-  padding-top: 25px;
+  padding-top: 40px;
 }
 
 #contato p {
@@ -515,25 +412,17 @@ section h1 {
 }
 
 .contact-text{
-  color:#2ecc71;
+  color:#27ae60;
   font-size: 35px;
 }
 
 .contact-p{
-  color:#2ecc50;
+  color:#27ae60;
   font-size:20px;
   margin-bottom: 30px;
 }
 
-.depoimentoh1{
-  letter-spacing: 4px;
-  margin-bottom: 45 px;
-  text-align: center;
-  padding: 50px;
-  font-size: 2rem;
-  color: #17a050;
-}
-
+/* Footer */
 footer {
   background-color: #2ecc71;
   padding: 20px;
@@ -558,7 +447,6 @@ footer {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   margin-bottom: 20px;
 }
-
 
 .flexbox-item h2 {
   font-size: 20px;
@@ -619,3 +507,96 @@ footer {
   transform: scale(1.05);
 }
 
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    background-color: #2ecc71;
+    padding: 10px 0;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  nav li a {
+    color: #fff;
+    font-size: 16px;
+  }
+
+  nav .button {
+    margin: 20px 0;
+  }
+
+  .inicio {
+    color: #fff;
+  }
+
+  h1 {
+    font-size: 0.7em;
+  }
+
+  #sobre-nos img {
+    width: 100%;
+  }
+
+  #sobre-nos p {
+    font-size: 15px;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  #servicos .flexbox-item {
+    flex-basis: 100%;
+  }
+
+  #servicos img {
+    width: 100%;
+  }
+
+  .carousel {
+    overflow-x: auto;
+  }
+
+  .carousel-item {
+    flex-basis: 70%;
+  }
+
+  .galleryContainer .img {
+    flex: 50%;
+  }
+
+  #contato h1 {
+    font-size: 25px;
+  }
+
+  #contato .contact-p {
+    font-size: 17px;
+  }
+
+  .map-text {
+    font-size: 16px;
+  }
+
+  .map iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-media img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+  }
+}
