@@ -168,7 +168,7 @@ section h1 {
   text-shadow: 5px 5px 5px black;
 }
 
-/* Sobre nós */
+
 #sobre-nos, #servicos {
   display: flex;
   align-items: center;
@@ -267,7 +267,7 @@ section h1 {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Depoimentos */
+
 .depoimentoh1{
   letter-spacing: 4px;
   margin-bottom: 45 px;
@@ -514,20 +514,8 @@ footer {
   transform: scale(1.05);
 }
 
-@media screen and (max-width: 1000px) {
-  nav .button{
-    width: 170px;
-    padding: 10px 20px;
-  }
 
-  nav li {
-    margin-left: 0px; 
-  }
 
-  #servicos .container {
-    width: 100%;
-  }
-}
 
 @media screen and (max-width: 1080px) {
   nav {
@@ -552,6 +540,8 @@ footer {
 
   nav .button {
     margin: 20px 0;
+    width: 170px;
+    padding: 10px 20px;
   }
 
   .inicio {
@@ -582,6 +572,9 @@ footer {
     width: 100%;
   }
 
+  #servicos .container {
+    width: 100%;
+  }
   .carousel {
     overflow-x: auto;
   }
@@ -621,10 +614,16 @@ footer {
     height: 20px;
     margin: 5px; 
   }
-.galleryContainer .img {
+  .galleryContainer .img {
     flex: 50%;
-    max-width: 100%;
+    width: 100%;
     height: auto;
+  }
+
+  .galleryContainer .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
   
 }
