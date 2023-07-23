@@ -343,7 +343,7 @@ section h1 {
   padding: 20px;
 }
 
-/* Galeria */
+
 .galleryContainer {
   width: 100%;
 }
@@ -374,6 +374,7 @@ section h1 {
   border-radius: 10px; 
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s;
+  height: 500px;
 }
 
 .galleryContainer .img img {
@@ -618,8 +619,14 @@ footer {
   .social-media img {
     width: 20px;
     height: 20px;
-    margin: 5px;
+    margin: 5px; 
   }
+.galleryContainer .img {
+    flex: 50%;
+    max-width: 100%;
+    height: auto;
+  }
+  
 }
 * {
   scrollbar-width: thin;
